@@ -61,7 +61,7 @@ scene[0] ={
 
 scene[1] = {
   vid : "Scene 1.mp4",
-  option1 : "Continue",
+  option1 : "Continue story",
   option1result: 2,
   videoTime : 4
 }
@@ -106,48 +106,106 @@ scene[6.1] = {
   vid : "Scene 6.1.mp4",
   option1 : "Continue story",
   option1result: 7,
-  videoTime : 7
+  videoTime : 5
 }
 
 scene[6.2] = {
   vid : "Scene 6.2.mp4",
   option1 : "Continue story",
   option1result: 7,
-  videoTime : 7
+  videoTime : 5
 }
 
 scene[7] = {
   vid : "Scene 7.mp4",
-  option1 : "Yes, I love you",
-  option2 : "No, I do not love you",
-  option1result: 7.1,
-  option2result: 8,
+  option1 : "Continue story",
+  option1result: 8,
   videoTime : 5
-}
-
-scene[7.1] = {
-  vid : "Scene 7.1.mp4",
-  option1 : "Continue",
-  option1result: 9,
-  videoTime : 4
 }
 
 scene[8] = {
   vid : "Scene 8.mp4",
-  option1 : "It’s too creepy",
-  option2 : "We’re just friends",
-  option3 : "You’re just a piece of equipment",
+  option1 : "Continue story",
   option1result: 9,
-  option2result: 9,
-  option3result: 9,
-  videoTime : 3
+  videoTime : 5
 }
 
 scene[9] = {
   vid : "Scene 9.mp4",
-  option1 : "Sure, I’ll pack now!",
-  option2 : "No, I don’t want to go",
-  option1result: 10,
-  option2result: 11,
+  option1 : "Ignore",
+  option2 : "Find out what’s going on",
+  option1result: 10.1,
+  option2result: 10.2,
   videoTime : 7
+}
+
+scene[10.1] = {
+  vid : "Scene 10.1.mp4",
+  option1 : "Keep ignoring",
+  option2 : "Find another place to live",
+  option1result: 11.1,
+  option2result: 11.1,
+  videoTime : 7
+}
+
+scene[11.1] = {
+  vid : "Scene 11.1.mp4",
+  option1 : "Ignore and go on with your life",
+  option2 : "Attend the funeral",
+  option1result: 12.1,
+  option2result: 12.1,
+  videoTime : 7
+}
+
+scene[12.1] = {
+  vid : "Scene 12.1.mp4",
+  videoTime : 5
+}
+
+scene[10.2] = {
+  vid : "Scene 10.2.mp4",
+  option1 : "Suggest going to the hospital",
+  option2 : "Do nothing",
+  option1result: 11.2,
+  option2result: 11.1,
+  videoTime : 7
+}
+
+scene[11.2] = {
+  vid : "Scene 11.2.mp4",
+  option1 : "Take time out to help them",
+  option2 : "Mind your own business",
+  option1result: 12.2,
+  option2result: 11.1,
+  videoTime : 7
+}
+
+scene[12.2] = {
+  vid : "Scene 12.2.mp4",
+  option1 : "Kindly refuse",
+  option2 : "Speak at the funeral",
+  option1result: 12.1,
+  option2result: 13.2,
+  videoTime : 7
+}
+
+scene[13.2] = {
+  vid : "Scene 13.2.mp4",
+  option1 : "Find another place to live",
+  option2 : "Give Grandpa a part of it",
+  option1result: 14.2,
+  option2result: 14.2,
+  videoTime : 7
+}
+
+scene[14.2] = {
+  vid : "Scene 13.2.mp4",
+  option1 : "Continue story",
+  option1result: 15.2,
+  videoTime : 5
+}
+
+scene[15.2] = {
+  vid : "Scene 15.2.mp4",
+  videoTime : 5
 }
